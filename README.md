@@ -17,15 +17,3 @@ A single-file, zero-build portfolio styled as a clinical monitoring display — 
    ```
 3. In the repo: **Settings → Pages → Source: Deploy from a branch → main / root → Save**.
 4. Your site goes live at **https://vats10987.github.io** within a minute or two.
-
-## Iterating with Claude Code
-
-Open this folder in Claude Code and use prompts like:
-
-> "This is my portfolio site (index.html). Keep the clinical-monitor design system — ink background, cyan #4FD6C6 traces, amber #FFB454 alerts, Syne display font, IBM Plex Mono for data labels. Add a [new section / dark-light toggle / project detail page] consistent with that system."
-
-Design tokens live at the top of the `<style>` block in `:root` — change colors and fonts in one place.
-
-## Structure
-
-- `index.html` — everything: markup, styles, and the ECG canvas animation. No build step, no dependencies beyond Google Fonts.
